@@ -1,0 +1,32 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "This app requires the users to fill in their information and then the app responded with a filtered match",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aayodipe/Friendfinder.git"
+  },
+  "keywords": [
+    "Friendsfinder",
+    "Friends",
+    "Finder",
+    "Matches"
+  ],
+  "author": "Adeyemi Ayodipe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aayodipe/Friendfinder/issues"
+  },
+  "homepage": "https://github.com/aayodipe/Friendfinder#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
