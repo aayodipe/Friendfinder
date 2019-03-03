@@ -1,0 +1,10 @@
+body{
+     margin:0;
+     padding:0;
+     overflow-x: hidden;
+     font-family: 'Abel', sans-serif;
+}
+
+.container-backgroung{
+background-color: rgb(175, 175, 175);
+}
