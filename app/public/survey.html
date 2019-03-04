@@ -5,17 +5,22 @@
      <!-- Required meta tags -->
      <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <!-- Jquery -->
+     <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
 
      <!-- Bootstrap CSS -->
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-          crossorigin="anonymous">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"  crossorigin="anonymous">
 
      <!-- Font Awesome Glyphicons -->
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 
-     <!-- Awesome Fonts -->
+     <!-- Awesome Fonts
      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css    integrity="
-          sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin="anonymous">
+          sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr crossorigin="anonymous"> -->
 
 
      <title>Survey</title>
@@ -33,8 +38,8 @@
                     </div>
                     <div class="form-group">
 
-                         <label for="Question-1" class="p1">Link to Photo Image</label>
-                         <input type="text" class="form-control" id="photo-image" required>
+                         <label for="photo" class="p1">Link to Photo Image</label>
+                         <input type="text" class="form-control" id="photo" required>
                     </div>
                     <br>
                     <hr>
@@ -48,169 +53,169 @@
                          <label for="Question-1" class=" p1">
                               Your mind is always buzzing with unexplored ideas and plans. </label>
 
-
                          <select class="form-control col-2 chosen-select" id="q1" placeholder="Select an option">
-                              <option selected>Select an option</option>
-                              <option>1 (Stongly Disagree)</option>
-                              <option>2</option>
-                              <option>3</option>
-                              <option>4</option>
-                              <option>5 (Strongly Agree)</option>
+                              <option  value = "" disabled selected>Select an option</option>
+                              <option value = "1">1 (Stongly Disagree)</option>
+                              <option value = "2">2</option>
+                              <option value = "3">3</option>
+                              <option value = "4">4</option>
+                              <option value = "5">5 (Strongly Agree)</option>
                          </select>
                     </div>
                     <!-- Question-2 -->
                     <div class="form-group">
 
                               <h3>Question 2</h3>
-                              <label for="Question-1" class=" p1">
+                              <label for="Question-2" class=" p1">
                                         Generally speaking, you rely more on your experience than your imagination. </label>
      
      
-                              <select class="form-control col-2 chosen-select" id="q1" placeholder="Select an option">
+                              <select class="form-control col-2 chosen-select" id="q2" placeholder="Select an option">
                                    <option selected>Select an option</option>
-                                   <option>1 (Stongly Disagree)</option>
-                                   <option>2</option>
-                                   <option>3</option>
-                                   <option>4</option>
-                                   <option>5 (Strongly Agree)</option>
+                                   <option value = "1">1 (Stongly Disagree)</option>
+                                   <option value = "2">2</option>
+                                   <option value = "3">3</option>
+                                   <option value = "4">4</option>
+                                   <option value = "5">5 (Strongly Agree)</option>
                               </select>
                          </div>
                     <!-- Question-3 -->
                     <div class="form-group">
 
                               <h3>Question 3</h3>
-                              <label for="Question-1" class=" p1">
+                              <label for="Question-3" class=" p1">
                                         You find it easy to stay relaxed and focused even when there is some pressure. </label>
      
      
-                              <select class="form-control col-2 chosen-select" id="q1" placeholder="Select an option">
+                              <select class="form-control col-2 chosen-select" id="q3" placeholder="Select an option">
                                    <option selected>Select an option</option>
-                                   <option>1 (Stongly Disagree)</option>
-                                   <option>2</option>
-                                   <option>3</option>
-                                   <option>4</option>
-                                   <option>5 (Strongly Agree)</option>
+                                   <option value = "1">1 (Stongly Disagree)</option>
+                                   <option value = "2">2</option>
+                                   <option value = "3">3</option>
+                                   <option value = "4">4</option>
+                                   <option value = "5">5 (Strongly Agree)</option>
                               </select>
                          </div>
                     <!-- Question-4 -->
                     <div class="form-group">
 
                               <h3>Question 4</h3>
-                              <label for="Question-1" class=" p1">
+                              <label for="Question-4" class=" p1">
                                         You rarely do something just out of sheer curiosity. </label>
      
      
-                              <select class="form-control col-2 chosen-select" id="q1" placeholder="Select an option">
+                              <select class="form-control col-2 chosen-select" id="q4" placeholder="Select an option">
                                    <option selected>Select an option</option>
-                                   <option>1 (Stongly Disagree)</option>
-                                   <option>2</option>
-                                   <option>3</option>
-                                   <option>4</option>
-                                   <option>5 (Strongly Agree)</option>
+                                   <option value = "1">1 (Stongly Disagree)</option>
+                                   <option value = "2">2</option>
+                                   <option value = "3">3</option>
+                                   <option value = "4">4</option>
+                                   <option value = "5">5 (Strongly Agree)</option>
                               </select>
                          </div>
                     <!-- Question-5 -->
                     <div class="form-group">
 
                               <h3>Question 5</h3>
-                              <label for="Question-1" class=" p1">
+                              <label for="Question-5" class=" p1">
                                         People can rarely upset you. </label>
      
      
-                              <select class="form-control col-2 chosen-select" id="q1" placeholder="Select an option">
+                              <select class="form-control col-2 chosen-select" id="q5" placeholder="Select an option">
                                    <option selected>Select an option</option>
-                                   <option>1 (Stongly Disagree)</option>
-                                   <option>2</option>
-                                   <option>3</option>
-                                   <option>4</option>
-                                   <option>5 (Strongly Agree)</option>
+                                   <option value = "1">1 (Stongly Disagree)</option>
+                                   <option value = "2">2</option>
+                                   <option value = "3">3</option>
+                                   <option value = "4">4</option>
+                                   <option value = "5">5 (Strongly Agree)</option>
                               </select>
                          </div>
                     <!-- Question-6 -->
                     <div class="form-group">
 
                               <h3>Question 6</h3>
-                              <label for="Question-1" class=" p1">
+                              <label for="Question-6" class=" p1">
                                         It is often difficult for you to relate to other people’s feelings. </label>
      
      
-                              <select class="form-control col-2 chosen-select" id="q1" placeholder="Select an option">
+                              <select class="form-control col-2 chosen-select" id="q6" placeholder="Select an option">
                                    <option selected>Select an option</option>
-                                   <option>1 (Stongly Disagree)</option>
-                                   <option>2</option>
-                                   <option>3</option>
-                                   <option>4</option>
-                                   <option>5 (Strongly Agree)</option>
+                                   <option value = "1">1 (Stongly Disagree)</option>
+                                   <option value = "2">2</option>
+                                   <option value = "3">3</option>
+                                   <option value = "4">4</option>
+                                   <option value = "5">5 (Strongly Agree)</option>
                               </select>
                          </div>
                     <!-- Question-7 -->
                     <div class="form-group">
 
                               <h3>Question 7</h3>
-                              <label for="Question-1" class=" p1">
+                              <label for="Question-7" class=" p1">
                                         In a discussion, truth should be more important than people’s sensitivities. </label>
      
      
-                              <select class="form-control col-2 chosen-select" id="q1" placeholder="Select an option">
+                              <select class="form-control col-2 chosen-select" id="q7" placeholder="Select an option">
                                    <option selected>Select an option</option>
-                                   <option>1 (Stongly Disagree)</option>
-                                   <option>2</option>
-                                   <option>3</option>
-                                   <option>4</option>
-                                   <option>5 (Strongly Agree)</option>
+                                   <option value = "1">1 (Stongly Disagree)</option>
+                                   <option value = "2">2</option>
+                                   <option value = "3">3</option>
+                                   <option value = "4">4</option>
+                                   <option value = "5">5 (Strongly Agree)</option>
                               </select>
                          </div>
                     <!-- Question-8 -->
                     <div class="form-group">
 
                               <h3>Question 8</h3>
-                              <label for="Question-1" class=" p1">
+                              <label for="Question-8" class=" p1">
                                         You rarely get carried away by fantasies and ideas. </label>
      
      
-                              <select class="form-control col-2 chosen-select" id="q1" placeholder="Select an option">
+                              <select class="form-control col-2 chosen-select" id="q8" placeholder="Select an option">
                                    <option selected>Select an option</option>
-                                   <option>1 (Stongly Disagree)</option>
-                                   <option>2</option>
-                                   <option>3</option>
-                                   <option>4</option>
-                                   <option>5 (Strongly Agree)</option>
+                                   <option value = "1">1 (Stongly Disagree)</option>
+                                   <option value = "2">2</option>
+                                   <option value = "3">3</option>
+                                   <option value = "4">4</option>
+                                   <option value = "5">5 (Strongly Agree)</option>
                               </select>
                          </div>
                     <!-- Question-9 -->
                     <div class="form-group">
 
                               <h3>Question 9</h3>
-                              <label for="Question-1" class=" p1">
+                              <label for="Question-9" class=" p1">
                                         You think that everyone’s views should be respected regardless of whether they are supported by facts or not. </label>
      
      
-                              <select class="form-control col-2 chosen-select" id="q1" placeholder="Select an option">
+                              <select class="form-control col-2 chosen-select" id="q9" placeholder="Select an option">
                                    <option selected>Select an option</option>
-                                   <option>1 (Stongly Disagree)</option>
-                                   <option>2</option>
-                                   <option>3</option>
-                                   <option>4</option>
-                                   <option>5 (Strongly Agree)</option>
+                                   <option value = "1">1 (Stongly Disagree)</option>
+                                   <option value = "2">2</option>
+                                   <option value = "3">3</option>
+                                   <option value = "4">4</option>
+                                   <option value = "5">5 (Strongly Agree)</option>
                               </select>
                          </div>
                     <!-- Question-10 -->
                     <div class="form-group">
 
                               <h3>Question 10</h3>
-                              <label for="Question-1" class=" p1">
+                              <label for="Question-10" class=" p1">
                                         You feel more energetic after spending time with a group of people. </label>
      
      
-                              <select class="form-control col-2 chosen-select" id="q1" placeholder="Select an option">
+                              <select class="form-control col-2 chosen-select" id="q10" placeholder="Select an option">
                                    <option selected>Select an option</option>
-                                   <option>1 (Stongly Disagree)</option>
-                                   <option>2</option>
-                                   <option>3</option>
-                                   <option>4</option>
-                                   <option>5 (Strongly Agree)</option>
+                                   <option value = "1">1 (Stongly Disagree)</option>
+                                   <option value = "2">2</option>
+                                   <option value = "3">3</option>
+                                   <option value = "4">4</option>
+                                   <option value = "5">5 (Strongly Agree)</option>
                               </select>
                          </div>
+                       
                          <br>
 
                          <!-- Submit Button -->
@@ -219,6 +224,94 @@
 
                </form>
      </div>
+     <footer class="footer">
+               <div class="container">
+                   <p><a href="/api/friends">API Friends List</a> | <a
+                           href="https://github.com/kupharmd05/FriendFinder">GitHub Repo</a>
+               </div>
+           </footer>
+<!-- Modal -->
+<div id="results-modal" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+      
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h2 class="modal-title"><strong>Best Match</strong></h2>
+              </div>
+              <div class="modal-body">
+                <h2 id="match-name"></h2>
+                <img id="match-img" src="" alt="">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+      
+          </div>
+        </div>
+     <script>
+      $("#submit").on("click", function(event) {
+           //Prevent default button
+    event.preventDefault();
+
+    
+
+//Store user info into variables
+     let name  = $('#name').val().trim();
+     let photo  = $('#photo').val().trim();
+     let q1  = $('#q1').val().trim();
+     let q2  = $('#q2').val().trim()
+     let q3  = $('#q3').val().trim()
+     let q4  = $('#q4').val().trim()
+     let q5  = $('#q5').val().trim()
+     let q6  = $('#q6').val().trim()
+     let q7  = $('#q7').val().trim()
+     let q8  = $('#q8').val().trim()
+     let q9  = $('#q9').val().trim()
+     let q10 = $('#q10').val().trim()
+  // If all required fields are filled
+
+     const newFriendData = {
+          name:name,
+          photo:photo,
+          scores:[ q1, q2, q3, q4, q5, q6, q7, q8, q9, q10,]}
+     
+     console.log(newFriendData)
+
+         // AJAX post the data to the friends API.
+        $.post("/api/friends", newFriendData, function(data) {
+
+
+
+          // Grab the result from the AJAX post so that the best match's name and photo are displayed.
+          $("#match-name").text(`Best Match ${data.name}`);
+          $("#match-img").attr("src", data.photo);
+           //clear form input
+          $("#name").val("");
+                    $("#q1").val("");
+                    $("#q2").val("");
+                    $("#q3").val("");
+                    $("#q4").val("");
+                    $("#q5").val("");
+                    $("#q6").val("");
+                    $("#q7").val("");
+                    $("#q8").val("");
+                    $("#q9").val("");
+                    $("#q10").val("");
+
+          // Show the modal with the best match
+          $("#results-modal").modal("toggle");
+
+       
+        })
+    })
+
+   
+               
+
+     </script>
 </body>
 
 </html>
