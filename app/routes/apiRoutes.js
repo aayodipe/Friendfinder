@@ -43,7 +43,7 @@ module.exports = function(app) {
            console.log(match)
            
            if (i === (friendsList.length -1)){
-               res.send('Hello')
+            res.json(friends[bestIndex])
                console.log(friendsList[bestIndex])
            }
     
