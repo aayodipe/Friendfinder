@@ -1,6 +1,8 @@
 const friendsList = require("../data/friends");
 
 
+
+
 // ROUTING
 
 module.exports = function(app) {
@@ -41,7 +43,7 @@ module.exports = function(app) {
            console.log(match)
            
            if (i === (friendsList.length -1)){
-               res.json(friendsList[bestIndex])
+               res.send('Hello')
                console.log(friendsList[bestIndex])
            }
     
